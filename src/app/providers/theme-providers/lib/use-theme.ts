@@ -1,10 +1,6 @@
 import { useContext } from "react";
-import { Theme, ThemeContext } from "./ThemeContext";
-
-interface UseThemeResult {
-    toggleTheme: () => void;
-    theme: Theme;
-}
+import { ThemeContext } from "./theme-context";
+import { Theme, UseThemeResult } from "../types";
 
 export function useTheme(): UseThemeResult {
     const { theme, setTheme } = useContext(ThemeContext);
@@ -12,9 +8,9 @@ export function useTheme(): UseThemeResult {
     const toggleTheme = () => {
         setTheme(theme === Theme.LIGHT ? Theme.DARK : Theme.LIGHT);
     }
-    
+
     return {
-        theme, 
+        theme,
         toggleTheme
     }
 }
