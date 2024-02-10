@@ -1,4 +1,4 @@
-import { classNames } from './class-names';
+import { classNames } from 'shared/lib/class-names/class-names';
 
 describe('Classnames', () => {
     test('with only first param', () => {
@@ -37,6 +37,16 @@ describe('Classnames', () => {
             'someClass',
             { hovered: true, scrollable: undefined },
             ['class1', 'class2'],
+        ))
+            .toBe(expected);
+    });
+
+    test('with additional undefined', () => {
+        const expected = 'someClass';
+        expect(classNames(
+            'someClass',
+            {},
+            [undefined, undefined],
         ))
             .toBe(expected);
     });
