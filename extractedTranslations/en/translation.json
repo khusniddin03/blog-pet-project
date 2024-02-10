@@ -1,7 +1,12 @@
 {
   "Not": "Not",
+  "Not found": "Not found",
   "about_page_title": "about_page_title",
   "main_page_title": "main_page_title",
   "testing": "testing",
-  "translate": "translate"
+  "throw error": "throw error",
+  "translate": "translate",
+  "Обновить страницу": "Обновить страницу",
+  "Произошла непредвиденная ошибка": "Произошла непредвиденная ошибка",
+  "Страница не найдена": "Страница не найдена"
 }
