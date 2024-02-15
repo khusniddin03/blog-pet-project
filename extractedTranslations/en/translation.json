@@ -1,6 +1,9 @@
 {
+  "About": "About",
+  "Main": "Main",
   "Not": "Not",
   "Not found": "Not found",
+  "Toggle": "Toggle",
   "about_page_title": "about_page_title",
   "main_page_title": "main_page_title",
   "testing": "testing",
