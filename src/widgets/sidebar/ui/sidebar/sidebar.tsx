@@ -32,7 +32,7 @@ const Sidebar = ({ className }: SidebarProps) => {
                 type="button"
                 onClick={onToggle}
             >
-                {t('Toggle btn')}
+                {t('Toggle button')}
             </Button>
             <div className={cls.switchers}>
                 <ThemeSwitcher />
