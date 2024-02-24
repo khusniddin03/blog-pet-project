@@ -5,7 +5,6 @@ import { ErrorBoundary } from 'app/providers/error-boundary';
 import App from './app/app';
 import 'shared/config/i18n/i18n';
 
-
 render(
     <BrowserRouter>
         <ErrorBoundary>
