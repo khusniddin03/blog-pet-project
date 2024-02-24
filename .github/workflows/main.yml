@@ -7,6 +7,12 @@ on:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
+    services:
+      chrome:
+        image: selenium/standalone-chrome
+        options: --shm-size=2g
+        ports: 
+          - 4444:4444
     strategy:
       matrix:
         node-versin: [17.x]
