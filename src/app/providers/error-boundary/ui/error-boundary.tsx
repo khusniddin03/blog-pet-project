@@ -36,7 +36,7 @@ class ErrorBoundary
             );
         }
 
-        return children;
+        return <div>{children}</div>;
     }
 }
 
