@@ -1,7 +1,19 @@
 {
+  "": "",
+  "Lorem ipsum dolor sit amet, \n                consectetur adipisicing elit": {
+    " Pariatur \n                id sit molestias commodi": {
+      " Impedit voluptate dolorum\n                 voluptates ad porro amet veritatis recusandae repellat iste": {
+        " \n                 Itaque deleniti ex incidunt fugiat est iusto laboriosam, quasi quae \n                 eligendi voluptatem dolor tenetur pariatur esse nobis delectus": {
+          " Tempore \n                 magnam aperiam reiciendis enim culpa laborum consequuntur?": " Tempore \n                 magnam aperiam reiciendis enim culpa laborum consequuntur?"
+        }
+      }
+    }
+  },
   "language": "language",
   "short_language": "short_language",
   "throw error": "throw error",
+  "Войти": "Войти",
+  "Войти ": "Войти ",
   "Главная": "Главная",
   "Главная страница": "Главная страница",
   "О сайте": "О сайте",

@@ -5,12 +5,17 @@
     outline: none;
 }
 
-.clear {
+.clear,
+.clearInverted {
     padding: 0;
     background-color: transparent;
     outline: none;
     border: 0;
     color: var(--primary-color);
+}
+
+.clearInverted {
+    color: var(--inverted-primary-color);
 }
 
 .outline {

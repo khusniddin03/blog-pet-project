@@ -1,5 +1,15 @@
 {
+  "": "",
   "About": "About",
+  "Lorem ipsum dolor sit amet, \n                consectetur adipisicing elit": {
+    " Pariatur \n                id sit molestias commodi": {
+      " Impedit voluptate dolorum\n                 voluptates ad porro amet veritatis recusandae repellat iste": {
+        " \n                 Itaque deleniti ex incidunt fugiat est iusto laboriosam, quasi quae \n                 eligendi voluptatem dolor tenetur pariatur esse nobis delectus": {
+          " Tempore \n                 magnam aperiam reiciendis enim culpa laborum consequuntur?": " Tempore \n                 magnam aperiam reiciendis enim culpa laborum consequuntur?"
+        }
+      }
+    }
+  },
   "Main": "Main",
   "Not": "Not",
   "Not found": "Not found",
@@ -15,6 +25,8 @@
   "testing": "testing",
   "throw error": "throw error",
   "translate": "translate",
+  "Войти": "Войти",
+  "Войти ": "Войти ",
   "Главная": "Главная",
   "Главная страница": "Главная страница",
   "О сайте": "О сайте",
