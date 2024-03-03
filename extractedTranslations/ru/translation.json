@@ -1,5 +1,4 @@
 {
-  "": "",
   "Lorem ipsum dolor sit amet, \n                consectetur adipisicing elit": {
     " Pariatur \n                id sit molestias commodi": {
       " Impedit voluptate dolorum\n                 voluptates ad porro amet veritatis recusandae repellat iste": {
@@ -9,11 +8,12 @@
       }
     }
   },
+  "decrement": "decrement",
+  "increment": "increment",
   "language": "language",
   "short_language": "short_language",
   "throw error": "throw error",
   "Войти": "Войти",
-  "Войти ": "Войти ",
   "Главная": "Главная",
   "Главная страница": "Главная страница",
   "О сайте": "О сайте",
