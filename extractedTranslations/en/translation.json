@@ -1,5 +1,4 @@
 {
-  "": "",
   "About": "About",
   "Lorem ipsum dolor sit amet, \n                consectetur adipisicing elit": {
     " Pariatur \n                id sit molestias commodi": {
@@ -17,6 +16,8 @@
   "Toggle btn": "",
   "Toggle button": "",
   "about_page_title": "about_page_title",
+  "decrement": "decrement",
+  "increment": "increment",
   "lang_switcher": "",
   "lang_switcher_short": "",
   "language": "",
@@ -26,7 +27,6 @@
   "throw error": "throw error",
   "translate": "translate",
   "Войти": "Войти",
-  "Войти ": "Войти ",
   "Главная": "Главная",
   "Главная страница": "Главная страница",
   "О сайте": "О сайте",
