@@ -2,7 +2,6 @@ import React, {
     useCallback, useEffect, useRef, useState,
 } from 'react';
 import { classNames } from 'shared/lib/class-names/class-names';
-import { useTheme } from 'app/providers/theme-providers';
 import cls from './modal.module.scss';
 import { Portal } from '../portal/portal';
 
@@ -19,8 +18,6 @@ export const Modal = (props: IProps) => {
     const {
         className, children, isOpen, onClose,
     } = props;
-
-    const { theme } = useTheme();
 
     const [isClosing, setIsClosing] = useState(false);
     const timerRef = useRef<ReturnType<typeof setTimeout>>();
@@ -42,7 +39,6 @@ export const Modal = (props: IProps) => {
     const mods: Record<string, boolean> = {
         [cls.opened]: isOpen,
         [cls.isClosing]: isClosing,
-        [cls[theme]]: true,
     };
 
     const onKeyDown = useCallback((e: KeyboardEvent) => {
