@@ -1,3 +1,4 @@
+import { DeepPartial } from '@reduxjs/toolkit';
 import { render } from '@testing-library/react';
 import { IStateSchema, StoreProvider } from 'app/providers/store-provider';
 import { ReactNode } from 'react';
@@ -7,7 +8,7 @@ import i18nForTests from 'shared/config/i18n/i18n-for-tests';
 
 export interface componentRenderOptions {
     route?: string;
-    initialState?: IStateSchema;
+    initialState?: DeepPartial<IStateSchema>;
 }
 
 export function componentRender(component: ReactNode, options: componentRenderOptions = {}) {
