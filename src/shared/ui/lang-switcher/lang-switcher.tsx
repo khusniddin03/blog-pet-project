@@ -20,7 +20,7 @@ const LangSwitcher = ({ className, short }: LangSwitcherProps) => {
             className={classNames('', {}, [className])}
             onClick={toggle}
         >
-            {short ? t('short_language') : t('language')}
+            {short ? t('Короткий язык') : t('Язык')}
         </Button>
     );
 };
